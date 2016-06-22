@@ -22,6 +22,7 @@
   text-align: justify; }
 
 .expanded {
+  overflow: hidden;
   width: 96%;
   height: 135px;
   padding: 10px;
@@ -29,8 +30,11 @@
   transition: height .75s ease-in-out; }
 
 .contracted {
-  width: 100%;
+  overflow: hidden;
+  width: 96%;
   height: 0px;
-  padding: 0px;
-  font-size: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
   transition: height .75s ease-in-out; }
